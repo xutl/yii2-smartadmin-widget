@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2012 TintSoft Technology Co. Ltd.
  * @license http://www.tintsoft.com/license/
  */
-namespace yuncms\admin\assets;
+namespace xutl\smartadmin\assets;
 
 /**
  * @author Tongle Xu <xutongle@gmail.com>

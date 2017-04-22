@@ -15,8 +15,8 @@ if (empty($safeAttributes)) {
 
 echo "<?php\n";
 ?>
-use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
+use xutl\smartadmin\ActiveForm;
 
 /* @var \yii\web\View $this */
 /* @var <?= ltrim($generator->modelClass, '\\') ?> $model */

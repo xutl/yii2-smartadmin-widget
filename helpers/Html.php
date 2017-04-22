@@ -4,7 +4,10 @@
  * @copyright Copyright (c) 2012 TintSoft Technology Co. Ltd.
  * @license http://www.tintsoft.com/license/
  */
-namespace yii\helpers;
+namespace xutl\smartadmin\helpers;
+
+use yii\helpers\BaseHtml;
+use yii\helpers\ArrayHelper;
 
 /**
  * Class Html

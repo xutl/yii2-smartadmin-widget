@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2012 TintSoft Technology Co. Ltd.
  * @license http://www.tintsoft.com/license/
  */
-namespace yuncms\admin\assets;
+namespace xutl\smartadmin\assets;
 
 use yii\web\AssetBundle;
 
@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
  */
 class LayoutAsset extends AssetBundle
 {
-    public $sourcePath = '@yuncms/admin/resources/assets';
+    public $sourcePath = '@vendor/xutl/yii2-smartadmin-widget/resources/assets';
 
     public $css = [
 
@@ -43,7 +43,7 @@ class LayoutAsset extends AssetBundle
     ];
 
     public $depends = [
-        'yuncms\admin\assets\PaceAsset',
+        'xutl\smartadmin\assets\PaceAsset',
         'yii\web\JqueryAsset',
         'yii\bootstrap\BootstrapPluginAsset',
         'xutl\fontawesome\Asset',

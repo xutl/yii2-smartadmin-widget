@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace yuncms\admin\widgets;
+namespace xutl\smartadmin;
 
 use Yii;
 use yii\base\Widget;

@@ -10,11 +10,11 @@ echo "<?php\n";
 ?>
 
 use yii\helpers\Html;
-use yuncms\admin\widgets\ActiveForm;
+use xutl\smartadmin\ActiveForm;
 
 /* @var $this yii\web\View */
 /* @var $model <?= ltrim($generator->searchModelClass, '\\') ?> */
-/* @var $form yii\widgets\ActiveForm */
+/* @var $form ActiveForm */
 ?>
 
 <div class="<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>-search">

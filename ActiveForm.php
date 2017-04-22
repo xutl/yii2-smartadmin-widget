@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2012 TintSoft Technology Co. Ltd.
  * @license http://www.tintsoft.com/license/
  */
-namespace yuncms\admin\widgets;
+namespace xutl\smartadmin;
 
 use Yii;
 use yii\helpers\Html;
@@ -24,7 +24,7 @@ class ActiveForm extends \yii\bootstrap\ActiveForm
      * @var string the default field class name when calling [[field()]] to create a new field.
      * @see fieldConfig
      */
-    public $fieldClass = 'yuncms\admin\widgets\ActiveField';
+    public $fieldClass = 'xutl\smartadmin\ActiveField';
 
     /**
      * @inheritdoc

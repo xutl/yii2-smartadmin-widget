@@ -14,7 +14,7 @@ echo "<?php\n";
 use yii\web\View;
 use yii\helpers\Url;
 use yii\helpers\Html;
-use yuncms\admin\widgets\Jarvis;
+use xutl\smartadmin\Jarvis;
 use <?= $generator->indexWidgetType === 'grid' ? "yii\\grid\\GridView" : "yii\\widgets\\ListView" ?>;
 <?= $generator->enablePjax ? 'use yii\widgets\Pjax;' : '' ?>
 
@@ -45,11 +45,11 @@ $this->registerJs("jQuery(\"#batch_deletion\").on(\"click\", function () {
                 'bodyToolbarActions' => [
                     [
                         'label' => <?= $generator->generateString('Manage ' . Inflector::camel2words(StringHelper::basename($generator->modelClass))) ?>,
-                        'url' => ['/<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>/index'],
+                        'url' => ['index'],
                     ],
                     [
                         'label' => <?= $generator->generateString('Create ' . Inflector::camel2words(StringHelper::basename($generator->modelClass))) ?>,
-                        'url' => ['/<?= Inflector::camel2id(StringHelper::basename($generator->modelClass)) ?>/create'],
+                        'url' => ['create'],
                     ],
                     [
                         'options' => ['id' => 'batch_deletion','class'=>'btn btn-sm btn-danger'],

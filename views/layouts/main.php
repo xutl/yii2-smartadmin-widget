@@ -6,9 +6,9 @@
 use yii\helpers\Url;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
-use yuncms\admin\widgets\Alert;
-use yuncms\admin\assets\LayoutAsset;
-use yuncms\admin\widgets\MainBreadcrumbs;
+use xutl\smartadmin\Alert;
+use xutl\smartadmin\LayoutAsset;
+use xutl\smartadmin\MainBreadcrumbs;
 
 $asset = LayoutAsset::register($this);
 

@@ -1,6 +1,6 @@
 <?php
 /* @var $this \yii\web\View */
-use yuncms\admin\widgets\SideBar;
+use xutl\smartadmin\SideBar;
 use yuncms\admin\helpers\MenuHelper;
 ?>
 
